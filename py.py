@@ -1,6 +1,7 @@
-n = int(input())
-c = 0
-for i in range(n):
-    if input().count("11") >=3:
-        c += 1
-print(c)
+a = input()
+print(len(a))
+print(a[::-1])
+if a[::-1] == a:
+    print("Палиндром")
+else:
+    print("!Палиндром")
